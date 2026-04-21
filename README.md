@@ -27,8 +27,11 @@ Create these folders and files:
 
 hydration-bot/
  ├── pom.xml
+ 
  ├── config.properties (optional, for external config)
+ 
  └── src/
+ 
     └── main/
         ├── java/
         │   └── com/
@@ -112,10 +115,15 @@ You can adjust the reminder interval by changing the TimeUnit.HOURS parameter in
 Features
 
 Properly organized Maven project structure
+
 Configuration file for easy bot token management
+
 Executable JAR generation with all dependencies included
+
 Logging support with SLF4J
+
 Checks voice channels every hour
+
 Plays sound file and sends DMs to users
 
 The bot will load the configuration and sound file from the resources folder automatically!
