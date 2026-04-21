@@ -31,6 +31,7 @@ hydration-bot/
  ├── config.properties (optional, for external config)
  
  └── src/
+ 
      └── main/
         ├── java/
         │   └── com/
