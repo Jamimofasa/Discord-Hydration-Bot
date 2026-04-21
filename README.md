@@ -24,15 +24,12 @@ dependencies {
 
 Create the Project Structure
 Create these folders and files:
-
 hydration-bot/
+
  ├── pom.xml
- 
  ├── config.properties (optional, for external config)
- 
  └── src/
- 
-    └── main/
+     └── main/
         ├── java/
         │   └── com/
         │       └── hydrationbot/
